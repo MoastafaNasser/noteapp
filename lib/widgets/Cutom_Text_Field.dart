@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:notesapp/widgets/contstant.dart';
 
 class CutomTextField extends StatelessWidget {
-  const CutomTextField({super.key});
+  const CutomTextField({super.key, required this.Hint,  this.maxLines = 1});
+  final String Hint ;
+  final int maxLines ;
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +13,7 @@ class CutomTextField extends StatelessWidget {
       cursorColor: Kprimarycolor,
     
       decoration: InputDecoration(
-        hintText: "Title",
+        hintText: Hint,
         hintStyle: TextStyle(color: Kprimarycolor , fontSize: 24),
         border: buildBorder(),
         enabledBorder: buildBorder(),

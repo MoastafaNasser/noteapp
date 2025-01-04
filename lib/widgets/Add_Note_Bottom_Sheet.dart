@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notesapp/widgets/Cutom_Text_Field.dart';
-import 'package:notesapp/widgets/contstant.dart';
+
 
 class AddNoteBottomSheet extends StatelessWidget {
   const AddNoteBottomSheet({super.key});
@@ -14,10 +14,18 @@ class AddNoteBottomSheet extends StatelessWidget {
           SizedBox(
             height: 24,
           ),
-          CutomTextField(),
+          CutomTextField(
+            Hint: "Title",
+          ),
+          SizedBox(
+            height: 15,
+          ),
+          CutomTextField(
+            Hint: "contant",
+            maxLines: 5,
+          ),
         ],
       ),
     );
   }
 }
-
