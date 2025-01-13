@@ -19,7 +19,7 @@ class customAppBar extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          SizedBox(width: 220,),
+          SizedBox(width: 300,),
           customSearchIcon(),
         ],
       ),
