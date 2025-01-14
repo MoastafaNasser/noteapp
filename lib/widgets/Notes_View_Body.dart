@@ -5,8 +5,8 @@ import 'package:notesapp/widgets/Note_List_View.dart';
 import 'package:notesapp/widgets/custom_App-Bar.dart';
 
 
-class NotesViewBody extends StatelessWidget {
-  const NotesViewBody({super.key});
+class NoteViewbody extends StatelessWidget {
+  const NoteViewbody({super.key});
 
   @override
   Widget build(BuildContext context) {

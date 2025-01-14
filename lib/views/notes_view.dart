@@ -30,7 +30,7 @@ class NotesView extends StatelessWidget {
           ),
         ),
       ),
-      body: NotesViewBody(),
+      body: NoteViewbody(),
     );
   }
 }
