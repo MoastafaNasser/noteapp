@@ -13,7 +13,7 @@ class AddNoteBottomSheet extends StatelessWidget {
       child: SingleChildScrollView(
         child: BlocConsumer<AddNoteCubit, AddNoteState>(
           listener: (context, state) {
-            // TODO: implement listener
+           
           },
           builder: (context, state) {
             return AddNoteForm();
