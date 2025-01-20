@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 
-class AddSimpleBlocObserver implements BlocObserver{
+class AddSimpleBlocObserver implements BlocObserver {
   @override
   void onChange(BlocBase bloc, Change change) {
     debugPrint("Change $change");
@@ -9,12 +9,12 @@ class AddSimpleBlocObserver implements BlocObserver{
 
   @override
   void onClose(BlocBase bloc) {
-    // TODO: implement onClose
+    debugPrint("cloesd $bloc");
   }
 
   @override
   void onCreate(BlocBase bloc) {
-    // TODO: implement onCreate
+    debugPrint("create $bloc");
   }
 
   @override
@@ -31,5 +31,4 @@ class AddSimpleBlocObserver implements BlocObserver{
   void onTransition(Bloc bloc, Transition transition) {
     // TODO: implement onTransition
   }
-
 }
