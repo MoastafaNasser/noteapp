@@ -11,7 +11,6 @@ class noteListView extends StatelessWidget {
       child: ListView.builder(
         padding: EdgeInsets.zero,
         itemBuilder: (context, index) {
-          
           return const Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
             child: noteItem(),

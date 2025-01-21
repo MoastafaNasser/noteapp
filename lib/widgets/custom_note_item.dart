@@ -45,6 +45,7 @@ class noteItem extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 22,
                     fontWeight: FontWeight.bold,
+                    // ignore: deprecated_member_use
                     color: Colors.black.withOpacity(0.5),
                   ),
                 ),
@@ -65,6 +66,7 @@ class noteItem extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
+                  // ignore: deprecated_member_use
                   color: Colors.black.withOpacity(0.4),
                 ),
               ),
